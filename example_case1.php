@@ -6,7 +6,7 @@
 
 
 require_once('parallelcurl_v2.php');
-define ('SEARCH_URL_PREFIX', 'http://10.72.22.128:85/rest-fs-v1/serveFile/');
+define ('SEARCH_URL_PREFIX', 'http://<URL>/rest-fs-v1/serveFile/');
 
 if (!isset($argv[1])) {
   print_r('Provide filename of download list as 1st parameter');
