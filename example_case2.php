@@ -6,7 +6,7 @@
 
 $start = microtime(true);
 require_once('parallelcurl_v2.php');
-define ('SEARCH_URL_PREFIX', 'http://www.dataentry.ndl.iitkgp.ac.in/services/v3/extractMetadataFromId/doi');
+define ('SEARCH_URL_PREFIX', 'http://<URL>/services/v3/extractMetadataFromId/doi');
 
 if (!isset($argv[1])) {
   print_r('Provide filename as 1st parameter');
